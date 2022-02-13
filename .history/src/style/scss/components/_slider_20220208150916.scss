@@ -1,0 +1,21 @@
+
+.slider {
+    figure {
+        position: relative;
+        max-width: 335px;
+        max-height: 255px;
+        img {
+            position: absolute;
+            width: 335px;
+            height: 100%;
+        }
+    }
+    color : red;
+}
+
+.previous {
+    color : red;
+}
+.next {
+    color : red;
+}

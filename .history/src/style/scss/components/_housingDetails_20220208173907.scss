@@ -1,0 +1,22 @@
+main {
+    .tags {
+        color: $mainColor;
+    }
+    .host {
+        span {
+            color : $mainColor;
+        }
+    }
+
+  p {
+    margin: 20px;
+    color: $mainColor;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .host {
+
+  }
+
+}

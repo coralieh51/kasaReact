@@ -1,0 +1,20 @@
+main {
+  .tags {
+    background-color: $mainColor;
+    border-radius: 5px;
+    hei
+  }
+  .host {
+      display: flex;
+    span {
+      color: $mainColor;
+    }
+  }
+
+  p {
+    margin: 20px;
+    color: $mainColor;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

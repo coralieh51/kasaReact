@@ -1,0 +1,27 @@
+.slider {
+  position: relative;
+  margin: 20px;
+  max-width: 335px;
+  max-height: 255px;
+  img {
+    position: absolute;
+    margin: 20px;
+    width: 335px;
+    height: 255px;
+  }
+  .previous {
+    transform: rotate(90deg);
+
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 11px;
+  }
+  .next {
+    transform: rotate(-90deg);
+    right: 0;
+    width: 20px;
+    height: 11px;
+    position: absolute;
+  }
+}

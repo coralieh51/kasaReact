@@ -1,0 +1,39 @@
+* {
+  font-family: "Montserrat";
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  position: absolute;
+  margin: 0 auto;
+  max-width: $mobile-max-width;
+  padding-top: 20px;
+  @include lg-screen-media {
+    max-width: $desktop-max-width;
+  }
+}
+main {
+  position: relative;
+  min-height: 100%;
+  footer {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 209px;
+    background: #000;
+    img {
+      margin: 62px auto 34px auto;
+    }
+    p {
+      font-size: 12px;
+      @include lg-screen-media {
+        font-size: 24px;
+      }
+    }
+  }
+}

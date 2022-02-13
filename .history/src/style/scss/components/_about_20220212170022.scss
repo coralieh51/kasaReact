@@ -1,0 +1,8 @@
+#about .dropdown {
+    width: calc(100% - 40px);
+    height
+  
+    @include lg-screen-media {
+      width: calc(100% - 400px);
+    }
+  }

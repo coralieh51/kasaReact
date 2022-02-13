@@ -1,0 +1,13 @@
+.main-nav {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    justify-content: flex-end;
+
+  > * {
+      margin-right: 50px;
+      padding: 20px 
+    color: $mainColor;
+  }
+}

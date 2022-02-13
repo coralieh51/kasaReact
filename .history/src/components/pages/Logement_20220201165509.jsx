@@ -1,0 +1,13 @@
+import logements from "../../assets/data/logements.json";
+
+function Logement() {
+    return(
+        <div>
+        {logements.data.map(logement => {
+            <img src={logement.cover} alt=""/>
+        })}
+        </div>
+    )
+}
+
+export default Logement;

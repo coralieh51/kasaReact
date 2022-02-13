@@ -1,0 +1,32 @@
+.error {
+
+    h2 {
+        display: block;
+        padding-top: 242px;
+        color: $mainColor;
+        margin: 0 90px;
+        font-size: 96px;
+        top: 262px;
+        margin-bottom: 10px;
+        @include lg-screen-media {
+            
+        }
+    }
+    aside {
+        color: $mainColor;
+        margin-top: 11px;
+        margin : 10px 58px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    a {
+        color: $mainColor;
+        display: block;
+        top : 557px;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 133px;
+        padding-bottom: 235px;
+    }
+}

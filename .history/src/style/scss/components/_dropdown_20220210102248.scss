@@ -1,0 +1,75 @@
+#housingDetails {
+  display: flex;
+  .dropdown {
+    @include lg-screen-media {
+      width: calc(100% - 200px);
+    }
+  }
+
+  #about {
+    display: block;
+    .dropdown {
+      @include lg-screen-media {
+        width: calc(100% - 200px);
+      }
+  }
+}
+
+  .dropdown {
+    margin: auto;
+    list-style: none;
+    padding: 20px 0;
+    width: 50%;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+
+  h4 {
+    position: relative;
+    border-radius: 10px;
+    padding: 7px;
+    height: 30px;
+    font-size: 13px;
+    background: $mainColor;
+    color: white;
+    font-weight: 500;
+    @include lg-screen-media {
+      font-size: 24px;
+      height: 47px;
+      padding: 10px;
+      &.about {
+        width: calc(100% - 40px);
+      }
+    }
+  }
+
+  li {
+    padding: 7px;
+    color: $mainColor;
+    background: #f7f7f7;
+    font-weight: 400;
+    font-size: 12px;
+    @include lg-screen-media {
+      width: 100%;
+      font-size: 24px;
+    }
+  }
+}
+
+.open {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  content: url("../../assets/img/arrow.svg");
+  transform: rotate(180deg);
+}
+
+.closed {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  content: url("../../assets/img/arrow.svg");
+}

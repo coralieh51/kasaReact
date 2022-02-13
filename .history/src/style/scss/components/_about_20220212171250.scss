@@ -1,0 +1,10 @@
+#about {
+    // min-height: 100vh;
+  .dropdown {
+    width: calc(100% - 40px);
+
+    @include lg-screen-media {
+      width: calc(100% - 400px);
+    }
+  }
+}

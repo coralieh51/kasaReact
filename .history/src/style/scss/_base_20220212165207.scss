@@ -1,0 +1,23 @@
+* {
+  font-family: "Montserrat";
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: ;
+  main {
+    flex-grow: 1;
+  }
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: $mobile-max-width;
+  padding-top: 20px;
+  min-height: 100%;
+  @include lg-screen-media {
+    max-width: $desktop-max-width;
+  }
+}

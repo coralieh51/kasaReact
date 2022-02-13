@@ -1,0 +1,17 @@
+.dropdown {
+    width: calc(100% - 40px);
+    marg
+  ul {
+    padding: 20px;
+  }
+  h4 {
+    font-size: 13px;
+    background: $mainColor;
+    color: white;
+  }
+
+  li {
+    color: $mainColor;
+    background: #f7f7f7;
+  }
+}

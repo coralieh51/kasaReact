@@ -1,0 +1,18 @@
+.error {
+    color: $mainColor;
+
+    h2 {
+        margin: 0 90px;
+        position: absolute;
+        color: $mainColor;
+        font-size: 96px;
+        top: 262px;
+        margin-bottom: 10px;
+    }
+    aside {
+        color: $mainColor;
+        position: absolute;
+        top: 372px;
+        margin : 10px 58px;
+    }
+}

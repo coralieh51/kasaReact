@@ -1,0 +1,27 @@
+main {
+  .tags {
+    background-color: $mainColor;
+    border-radius: 5px;
+    height: 18px;
+    font-size: 10px;
+    margin-right: 10px;
+    padding: 2px;
+    font-family: "Montserrat";
+  }
+  .host {
+      display: flex;
+      img {
+          border-radius: 50%;
+      }
+    span {
+      color: $mainColor;
+    }
+  }
+
+  p {
+    margin: 20px;
+    color: $mainColor;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

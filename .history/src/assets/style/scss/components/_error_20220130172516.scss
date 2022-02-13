@@ -1,0 +1,25 @@
+.error {
+
+    h2 {
+        color: $mainColor;
+        margin: 0 90px;
+        position: absolute;
+        font-size: 96px;
+        top: 262px;
+        margin-bottom: 10px;
+    }
+    aside {
+        position: absolute;
+        top: 372px;
+        margin : 10px 58px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    a {
+        display: block;
+        position: absolute;
+        top : 557px;
+        font-size: 14px;
+    }
+}

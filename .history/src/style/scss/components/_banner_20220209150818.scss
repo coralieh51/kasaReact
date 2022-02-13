@@ -1,0 +1,40 @@
+.bgbanner {
+  display: flex;
+  position: relative;
+  background-color: black;
+  margin: 0 20px;
+  max-width: calc($mobile-max-width - 40px);
+  max-height: 111px;
+  border-radius: 10px;
+  width: 100%;
+  height: 111px;
+  margin-top: 20px;
+  align-items: center;
+  &.about {
+    height: 223px;
+    margin-top :20px;
+  }
+
+  @include lg-screen-media {
+    margin: 0 100px;
+    max-width: calc($desktop-max-width - 200px);
+    height: 223px;
+    margin-top: 63px;
+    }
+
+  .banner {
+    position: absolute;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: calc($mobile-max-width - 40px);
+    height:100%;
+    @include lg-screen-media
+  }
+
+  figcaption {
+    position: absolute;
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 16px;
+  }
+}

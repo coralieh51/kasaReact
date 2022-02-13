@@ -1,0 +1,13 @@
+.header {
+    margin: 0 20px;
+    position: relative;
+    height: 47px;
+    @include lg-screen-media {
+        margin: 0 100px;
+        height: 68px;
+        img {
+            width: 210px;
+            hei
+        }
+    }
+}

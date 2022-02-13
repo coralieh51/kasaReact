@@ -1,0 +1,14 @@
+.gallery {
+    margin: 43px auto;
+    border-radius: 10px;
+    width: calc(100);
+    background: #f6f6f6;
+
+
+  .card {
+    width: 340px;
+    height: 340px;
+    background-color: $mainColor;
+    color: #fff;
+  }
+}

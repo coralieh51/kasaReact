@@ -1,0 +1,31 @@
+.slider {
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 335px;
+    height: 255px;
+    .previous {
+        z-index: ;
+      position: absolute;
+      transform: rotate(90deg);
+      left: 0;
+      width: 20px;
+      height: 11px;
+      margin: 20px;
+    }
+    img {
+        position: absolute;
+        width: 335px;
+        height: 255px;
+    }
+  .next {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: 0;
+    width: 20px;
+    height: 11px;
+    margin: 20px;
+  }
+}

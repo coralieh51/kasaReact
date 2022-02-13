@@ -1,0 +1,28 @@
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 43px auto;
+  border-radius: 10px;
+  width: calc(100% - 200px);
+  background: #f6f6f6;
+  align-items: flex-end;
+  padding: 50px;
+
+  
+}
+
+.logement-picture {
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+  max-width: 340px;
+  max-height: 340px;
+}
+
+.card-caption {
+  position: absolute;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}

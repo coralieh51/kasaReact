@@ -1,0 +1,42 @@
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 22px auto;
+  border-radius: 10px;
+  width: calc(100% - 40px);
+  @include lg-screen-media {
+    background: #F7F7F7;
+  }
+
+  .logement-picture {
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    max-width: 335px;
+    max-height: 255px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+    @include lg-screen-media {
+      width: 340px;
+      height: 340px;
+    }
+
+
+    img {
+        width: 335px;
+        height: 255px;
+        border-radius: 10px;
+        @include lg-screen-media {
+          width: 340px;
+          height: 340px;
+        }
+    }
+    .card-caption {
+      position: absolute;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

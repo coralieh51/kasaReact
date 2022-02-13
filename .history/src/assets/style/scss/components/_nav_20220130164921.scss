@@ -1,0 +1,23 @@
+.main-nav {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  justify-content: flex-end;
+
+  > * {
+    &:first-child {
+      margin-right: 10px;
+    }
+
+    font-style: to-upper-case($string: "");
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 17px 0;
+    color: $mainColor;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

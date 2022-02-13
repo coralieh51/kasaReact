@@ -1,0 +1,10 @@
+.main-nav {
+    padding-top: ;
+    display: flex;
+    justify-content: flex-end;
+
+  > * {
+    font-family: "Montserrat";
+    color: $mainColor;
+  }
+}

@@ -1,0 +1,111 @@
+#about {
+  display: block;
+}
+
+#housingDetails {
+  flex-direction: column;
+  margin: 20px;
+  @include lg-screen-media {
+    margin: 30px 100px;
+  }
+}
+.aboutHousing {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  @include lg-screen-media {
+    flex-direction: row;
+  }
+  .leftContent {
+    width: calc($mobile-max-width - 40px);
+    height: 100px;
+    padding: 10px 0;
+    @include lg-screen-media {
+      width: 50%;
+      height: 100%;
+    }
+    .location {
+      height: 24px;
+      margin-bottom: 20px;
+      color: $mainColor;
+      font-size: 18px;
+      font-weight: 500;
+      @include lg-screen-media {
+        font-size: 36px;
+        width: 50%;
+        margin: 30px 0;
+        height: 36px;
+      }
+    }
+    @include lg-screen-media {
+      display: block;
+      width: 50%;
+      height: 122px;
+      padding: 15px 0;
+    }
+    .tagsContainer {
+      display: flex;
+      width: 100%;
+      height: 18px;
+      .tags {
+        background-color: $mainColor;
+        border-radius: 5px;
+        height: 18px;
+        font-size: 10px;
+        padding: 2px 10px;
+        margin-right: 10px;
+        font-family: "Montserrat";
+        @include lg-screen-media {
+          border-radius: 10px;
+          height: 25px;
+          font-size: 14px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+    .rightContent {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 100%;
+      @include lg-screen-media {
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: end;
+      }
+    }
+}
+
+.host {
+  order: 2;
+  width: 50%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  @include lg-screen-media {
+    order: 1;
+  }
+  img {
+    width: 32px;
+    border-radius: 50%;
+  }
+  span {
+    margin-right: 10px;
+    font-size: 12px;
+    color: $mainColor;
+  }
+}
+
+.ratings {
+  order: 1;
+  align-self: end;
+  width: 50%;
+  @include lg-screen-media {
+    width: 50%;
+  }
+}

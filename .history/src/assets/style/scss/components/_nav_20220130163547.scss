@@ -1,0 +1,21 @@
+.main-nav {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  justify-content: flex-end;
+
+  > * {
+    &:first-child {
+      margin-right: 510px;
+    }
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 500;
+    padding: 17px 0;
+    color: $mainColor;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
