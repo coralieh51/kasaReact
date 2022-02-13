@@ -1,5 +1,0 @@
-function Kasalogo() {
-    return(
-        
-    )
-}

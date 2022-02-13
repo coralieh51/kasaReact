@@ -1,8 +1,0 @@
-import
-
-function Home() {
-    return(
-        <>
-        </>
-    )
-}
