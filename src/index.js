@@ -7,7 +7,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import About from "./components/pages/About";
 import Error from "./components/pages/Error";
-import Logement from "./components/housing-content/Logement";
+import Housing from "./components/pages/Housing";
 
 const rootElement = document.getElementById("root");
 
@@ -17,7 +17,7 @@ ReactDOM.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/logement/:id" element={<Logement />}></Route>
+        <Route path="/logement/:id" element={<Housing />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="*" element={<Error />} />
       </Routes>

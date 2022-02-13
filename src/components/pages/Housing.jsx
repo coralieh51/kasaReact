@@ -1,11 +1,11 @@
 import React from "react";
 import logements from "../../assets/data/logements.json";
 import { useParams, Navigate  } from "react-router-dom";
-import Slider from "./Slider";
-import Tags from "./Tags";
-import HostInfos from "./Host";
-import Ratings from "./Rating";
-import Dropdown from "./Dropdown";
+import Slider from "../housing-content/Slider";
+import Tags from "../housing-content/Tags";
+import HostInfos from "../housing-content/Host";
+import Ratings from "../housing-content/Rating";
+import Dropdown from "../housing-content/Dropdown";
 
 function Housing() {
   const { id } = useParams();
